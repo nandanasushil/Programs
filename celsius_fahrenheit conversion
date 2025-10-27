@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+    float cel,fahren;
+    printf("Enter temperature in celsius : ");
+    scanf("%f",&cel);
+    fahren=(cel*9/5)+32;
+    printf("Converted Temperature to fahrenheit : %f",fahren);
+    return 0;
+}
