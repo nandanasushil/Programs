@@ -1,0 +1,15 @@
+#include <stdio.h>
+//Program to calculate simple interest
+int main()
+{
+    float p,r,t,simp_int;
+    printf("Enter principal amount : ");
+    scanf("%f",&p);
+    printf("Enter annual interest rate : ");
+    scanf("%f",&r);
+    printf("Enter time period(in years) : ");
+    scanf("%f",&t);
+    simp_int=(p*r*t)/100;
+    printf("Simple interest : %f",simp_int);
+    return 0;
+}
